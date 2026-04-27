@@ -15,11 +15,11 @@ const faqs = [
   },
   {
     question: "¿Dónde se celebra?",
-    answer: "La fiesta se celebra en Indiana Valencia (Carrer de Bellver, 7, Valencia). Consulta la sección 'Próximo vuelo' para más detalles.",
+    answer: "La fiesta se celebra en Indiana Valencia (Calle de San Vicente Mártir, 95, 46007 Valencia). Consulta la sección 'Próximo vuelo' para más detalles.",
   },
   {
     question: "¿Hay que llevar DNI?",
-    answer: "Sí, es obligatorio llevar documento de identidad físico o válido. Sin DNI no se permitirá el acceso, sin excepciones.",
+    answer: "Sí, es obligatorio llevar documento de identidad. Puedes presentarlo físico o en foto desde el móvil. Sin DNI no se permitirá el acceso, sin excepciones.",
   },
   {
     question: "¿Puedo entrar si llego tarde?",
