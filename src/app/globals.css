@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0B1B3D;
+  --navy-light: #1E3A6F;
+  --cream: #F5F1E8;
+  --cream-dark: #E8E0D0;
+  --sky-muted: #7A9BC4;
+  --white: #FFFFFF;
+  --gold: #C9A96E;
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-sky-muted: var(--sky-muted);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--navy);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--navy-light);
+}
+
+/* Ticket dashed border utility */
+.ticket-edge {
+  background-image: radial-gradient(circle, transparent 6px, var(--navy) 6px);
+  background-size: 16px 16px;
+  background-position: -8px center;
+  background-repeat: repeat-y;
+}
+
+/* Dashed line utility */
+.dashed-line {
+  background-image: linear-gradient(to right, var(--navy) 50%, transparent 50%);
+  background-size: 12px 2px;
+  background-repeat: repeat-x;
+}
+
+/* Monospace numbers for countdown */
+.font-mono-nums {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
