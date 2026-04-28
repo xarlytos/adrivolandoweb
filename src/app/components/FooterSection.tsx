@@ -6,7 +6,7 @@ import { Instagram, Ticket, Mail, Plane, ArrowUpRight } from "lucide-react";
 const links = [
   { label: "Instagram", href: "https://instagram.com/volandovalencia", icon: Instagram },
   { label: "Events / Entradas", href: "#entradas", icon: Ticket },
-  { label: "Contacto", href: "mailto:info@volandovalencia.com", icon: Mail },
+  { label: "Contacto", href: "mailto:Volandovalencia@gmail.com", icon: Mail },
 ];
 
 export default function FooterSection() {
