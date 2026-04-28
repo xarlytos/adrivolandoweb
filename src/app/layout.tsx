@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://volandovalencia.vercel.app"),
   title: "VOLANDO VALENCIA | Modo avión activado",
   description: "La fiesta de Valencia que despega cada noche. Consigue tu boarding pass y prepárate para despegar. Destino: Desconexión.",
   keywords: ["Volando Valencia", "fiesta Valencia", "eventos Valencia", "discoteca Valencia", "noche Valencia"],
@@ -20,6 +21,16 @@ export const metadata: Metadata = {
     title: "VOLANDO VALENCIA | Modo avión activado",
     description: "Consigue tu boarding pass para el próximo vuelo. Destino: Desconexión.",
     type: "website",
+    images: [
+      {
+        url: "/logo.jpeg",
+        alt: "Volando Valencia Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/logo.jpeg"],
   },
 };
 
