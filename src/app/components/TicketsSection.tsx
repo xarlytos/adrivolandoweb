@@ -102,7 +102,7 @@ export default function TicketsSection() {
             </p>
 
             <a
-              href="https://www.fourvenues.com/volando-valencia"
+              href="https://www.fourvenues.com/volando-valencia/events/indiana---volando-15-05-2026-RALK"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-cream text-navy font-semibold tracking-wider uppercase text-sm hover:bg-white transition-colors duration-300"
